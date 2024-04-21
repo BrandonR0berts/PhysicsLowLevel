@@ -1,0 +1,4 @@
+- Port to PS4
+	- Swap out memory stuff
+	- Swap out threading stuff
+	- Writeup PS4 changes to forum post

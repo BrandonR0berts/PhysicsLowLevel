@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TimeTracker.cpp">
+      <Filter>Tracker\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseQuadrant.cpp">
+      <Filter>Quadtree\Quadrants\Base Quadrant</Filter>
+    </ClCompile>
+    <ClCompile Include="LeafQuadrant.cpp">
+      <Filter>Quadtree\Quadrants\Leaf Quadrant</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentQuadrant.cpp">
+      <Filter>Quadtree\Quadrants\Parent Quadrant</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTracker.cpp">
+      <Filter>Tracker\Memory\Base Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalTrackers.cpp">
+      <Filter>Tracker\Memory\Global Trackers</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Callbacks.h" />
+    <ClInclude Include="TimeTracker.h">
+      <Filter>Tracker\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons.h" />
+    <ClInclude Include="BaseQuadrant.h">
+      <Filter>Quadtree\Quadrants\Base Quadrant</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafQuadrant.h">
+      <Filter>Quadtree\Quadrants\Leaf Quadrant</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTracker.h">
+      <Filter>Tracker\Memory\Base Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalTrackers.h">
+      <Filter>Tracker\Memory\Global Trackers</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tracker">
+      <UniqueIdentifier>{1c18da0e-78fd-4abd-840e-eda4e5a2e97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracker\Time">
+      <UniqueIdentifier>{941c94cf-01b1-49bf-afb4-22aad326e24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree">
+      <UniqueIdentifier>{83a513fe-748f-4108-ac9f-a39ece98f341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cube">
+      <UniqueIdentifier>{6e1674e9-03e0-4df7-a304-96ed26ad6c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{b9c1336c-9a74-4ddb-b5cd-6b1fbd6201e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree\Quadrants">
+      <UniqueIdentifier>{3942a71c-0b03-4151-9f1e-ebc881eb9e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree\Quadrants\Base Quadrant">
+      <UniqueIdentifier>{906194ff-fbb1-4d6c-aa16-759b152cb8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree\Quadrants\Leaf Quadrant">
+      <UniqueIdentifier>{5d24d371-01bc-49b6-8925-aee57435bfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree\Quadrants\Parent Quadrant">
+      <UniqueIdentifier>{7e72094f-aa84-414c-b460-c3e4920a6625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracker\Memory">
+      <UniqueIdentifier>{22576e2a-57f8-486b-8b14-6eacd62cb20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracker\Memory\Base Tracker">
+      <UniqueIdentifier>{d043bbd0-d4e2-4c52-9bb5-62a57810cf75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracker\Memory\Box Tracker">
+      <UniqueIdentifier>{d17bd72f-ff94-4608-9701-1c7df59904ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracker\Memory\Global Trackers">
+      <UniqueIdentifier>{853371d9-8d8d-406e-92f2-58689cbbbeed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ParentQuadrant.h">
+      <Filter>Quadtree\Quadrants\Parent Quadrant</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ToDo.txt" />
+  </ItemGroup>
+</Project>
